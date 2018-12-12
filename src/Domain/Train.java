@@ -36,7 +36,9 @@ public class Train {
 	public void setWagon(Wagon wagon) {
 		Wagons.add(wagon);
 	}
-	
-	
-	
+
+
+	public void addWagon(Wagon w) {
+		Wagons.add(w);
+	}
 }
