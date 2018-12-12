@@ -10,7 +10,7 @@ public class Wagon {
 		seats = Seats;
 	}
 	
-	public int getSeat() {
+	public int getSeats() {
 		return Seats;
 	}
 	

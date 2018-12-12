@@ -100,12 +100,38 @@ public class Controller implements Observable {
         }
     }
 
+    public ArrayList<String> getLogs(){
+        return logs;
+    }
+
     public void addTrain(String name) {
-        //TODO: implement
+        if(!trainExists(name)){
+            Train t = new Train(name);
+            trains.add(t);
+            logs.add("Train "+name+" added");
+            System.out.println("Train "+name+" added");
+            observe();
+
+        }
     }
 
     public void addWagon(int id, int seats) {
-        int a = 1;
+        boolean wagon = true;
+        boolean wagonID = false;
+        for(Wagon w: wagons){
+            if(id==w.getID()){
+                wagonID = true;
+                System.out.println("Wagon ID not unique");
+            }
+        }
+        if(!wagonID){
+            wagon = false;
+            Wagon w = new Wagon(id, seats);
+            wagons.add(w);
+            System.out.println("Wagon "+ id + " with "+seats+" seats");
+            logs.add("Wagon "+ id + " with "+seats+" seats");
+            observe();
+        }
 
     }
 
@@ -145,6 +171,47 @@ public class Controller implements Observable {
 
     public void removeObserver(Observer obs) {
         observers.remove(obs);
+    }
+
+    public void observe(){
+        if(observers.size() == 0){
+            System.out.println("No observers to notify");
+        } else {
+            Iterator<Observer> it = observers.iterator();
+            while(it.hasNext() ){
+                Observer obs = it.next();
+                obs.update(this);
+                System.out.println("notified observers");
+
+            }
+        }
+    }
+
+    public void getSeats(String name) {
+        if(!trainExists(name)){
+            observe();
+            logs.add("No such train");
+            System.out.println("No such train");
+
+        }
+    }
+
+    public void getSeatsFromWagon(int idWagon) {
+        if(wagonExists(idWagon)){
+            observe();
+            logs.add("no such wagon");
+            System.out.println("No such wagon");
+
+
+        }
+        ArrayList<Wagon> Wagonlist = wagons;
+        for(Wagon w: Wagonlist){
+            if(w.getID()==idWagon){
+                observe();
+                logs.add("Wagon "+idWagon+" has "+w.getSeats()+ " seats");
+                System.out.println("Wagon "+idWagon+" has "+w.getSeats()+ " seats");
+            }
+        }
     }
 
 
