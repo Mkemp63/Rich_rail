@@ -1,14 +1,15 @@
 package Logic;
 
-import java.util.ArrayList;
+import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.BufferedWriter;
+import java.util.ArrayList;
 
 public class Logger implements Observer {
     private ArrayList<String> logs = new ArrayList<String>();
     private static Logger instance;
     private Controller cont = Controller.getInstance();
+    private static final String LOG_FILE = System.getProperty("user.dir") + "/Richklog.log.txt";
 
     public Logger() {
         cont.addObserver(this);
@@ -34,14 +35,23 @@ public class Logger implements Observer {
     }
 
     public void Write(String input) {
-        String logs = System.getProperty("user.dir") + "Richlog.log";
+        BufferedWriter wr = null;
+        System.out.println("log succesful");
+
         try {
-            BufferedWriter wr = new BufferedWriter(new FileWriter(logs, true));
+            wr = new BufferedWriter(new FileWriter(LOG_FILE, true));
             wr.append(input);
             wr.newLine();
-            wr.close();
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            try {
+                if (wr != null) {
+                    wr.close();
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
 
     }

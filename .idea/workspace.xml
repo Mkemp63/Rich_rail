@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa80e-a2de-4dc6-b7bc-d1eae08ebf04" name="Default Changelist" comment="">
+    <list default="true" id="ff9fa80e-a2de-4dc6-b7bc-d1eae08ebf04" name="Default Changelist" comment="Done!">
+      <change afterPath="$PROJECT_DIR$/Richlog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Commands/AddCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Commands/AddCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Commands/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Commands/DeleteCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Commands/DeleteCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Commands/GetCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Commands/GetCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Commands/NewCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Commands/NewCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Commands/RemoveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Commands/RemoveCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Domain/Wagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Domain/Wagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GUI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GUI/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GUI/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GUI/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Logic/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Logic/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Logic/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Logic/Logger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Commands/AddCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/AddCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/DeleteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/DeleteCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Commands/GetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/GetCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/NewCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/NewCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/RemoveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/RemoveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Train.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/Wagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Wagon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Logic/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Logic/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/Observer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,70 +37,90 @@
     <session id="1605682718">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AddCommand" value="1" />
-          <entry key="JAVA/" value="2" />
+          <entry key="JAVA/" value="3" />
           <entry key="NewCommand" value="1" />
+          <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="40" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="79" />
+          <entry key="log" value="3" />
           <entry key="uml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="40" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="UML" value="5" />
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="79" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="UML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2919" />
-          <entry key="txt" value="80" />
+          <entry key="java" value="6440" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2919" />
-          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="JAVA" value="6440" />
+          <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Commands/Command.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GUI/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret line="505" column="22" selection-start-line="505" selection-start-column="22" selection-end-line="505" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Logic/Controller.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Commands/AddCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2729#2730#0" expanded="true" />
-                <element signature="e#2756#2757#0" expanded="true" />
-                <element signature="e#3935#3936#0" expanded="true" />
-                <element signature="e#3969#3970#0" expanded="true" />
-                <element signature="e#4017#4018#0" expanded="true" />
-                <element signature="e#4054#4055#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Commands/DeleteCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Commands/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -96,8 +128,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/Wagon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Commands/NewCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -105,25 +146,317 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Logic/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="11">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#218#226#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logic/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="247" column="25" selection-start-line="247" selection-start-column="25" selection-end-line="247" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="1433.0" y="1502.0">com</node>
+                <node x="263.5" y="1044.0">Commands.NewCommand</node>
+                <node x="493.5" y="1044.0">Commands.AddCommand</node>
+                <node x="253.0" y="1502.0">groovyjarjarasm</node>
+                <node x="1581.0" y="1502.0">java</node>
+                <node x="30.315006038647425" y="859.0">Logic.Logger</node>
+                <node x="1283.0" y="1502.0">javax</node>
+                <node x="1129.0" y="1502.0">javafx</node>
+                <node x="448.1622282608696" y="0.0">Domain.Wagon</node>
+                <node x="973.0" y="1502.0">oracle</node>
+                <node x="722.5" y="1044.0">Commands.GetCommand</node>
+                <node x="462.0" y="1502.0">META-INF</node>
+                <node x="812.0" y="1502.0">groovy</node>
+                <node x="951.5" y="1044.0">Commands.RemoveCommand</node>
+                <node x="0.0" y="1502.0">groovyjarjarcommonscli</node>
+                <node x="1180.5" y="1044.0">Commands.DeleteCommand</node>
+                <node x="700.2177838164253" y="881.0">Commands.Command</node>
+                <node x="1537.8333333333333" y="15.867838541666664">groovyjarjarantlr</node>
+                <node x="641.0" y="1502.0">netscape</node>
+                <node x="0.0" y="1576.0">sun</node>
+                <node x="23.550513285023953" y="11.0">Logic.Observable</node>
+                <node x="341.929438405797" y="1195.0">GUI.Window</node>
+                <node x="32.5" y="210.0">Logic.Observer</node>
+                <node x="143.0" y="1576.0">org</node>
+                <node x="392.71778381642514" y="386.0">Logic.Controller</node>
+                <node x="889.0752717391304" y="1406.0">GUI.Main</node>
+                <node x="285.0" y="1576.0">jdk</node>
+                <node x="859.961986714976" y="155.0">Domain.Train</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Logic.Observable" target="Logic.Observer">
+                  <point x="47.40000000000009" y="36.5" />
+                  <point x="189.45051328502404" y="135.0" />
+                  <point x="181.75" y="135.0" />
+                  <point x="49.75" y="-25.5" />
+                </edge>
+                <edge source="Commands.DeleteCommand" target="Commands.Command">
+                  <point x="-52.25" y="-25.5" />
+                  <point x="1232.75" y="994.0" />
+                  <point x="880.7177838164253" y="994.0" />
+                  <point x="76.0" y="25.5" />
+                </edge>
+                <edge source="Logic.Controller" target="Logic.Observer">
+                  <point x="-83.33333333333331" y="-201.5" />
+                  <point x="434.3844504830918" y="356.0" />
+                  <point x="206.625" y="356.0" />
+                  <point x="74.625" y="25.5" />
+                </edge>
+                <edge source="GUI.Window" target="Logic.Observable">
+                  <point x="-117.3333333333332" y="-80.5" />
+                  <point x="352.5961050724638" y="1175.0" />
+                  <point x="0.0" y="1175.0" />
+                  <point x="0.0" y="115.0" />
+                  <point x="47.250513285024" y="115.0" />
+                  <point x="-94.79999999999995" y="36.5" />
+                </edge>
+                <edge source="GUI.Window" target="Domain.Wagon">
+                  <point x="117.33333333333337" y="-80.5" />
+                  <point x="587.2627717391304" y="1175.0" />
+                  <point x="1425.75" y="1175.0" />
+                  <point x="1425.75" y="115.0" />
+                  <point x="579.245561594203" y="115.0" />
+                  <point x="59.58333333333337" y="47.5" />
+                </edge>
+                <edge source="GUI.Window" target="Commands.Command">
+                  <point x="-10.666666666666629" y="-80.5" />
+                  <point x="459.26277173913036" y="1115.0" />
+                  <point x="483.0" y="1115.0" />
+                  <point x="483.0" y="994.0" />
+                  <point x="747.7177838164253" y="994.0" />
+                  <point x="-57.0" y="25.5" />
+                </edge>
+                <edge source="Logic.Controller" target="Domain.Train">
+                  <point x="55.55555555555554" y="-201.5" />
+                  <point x="573.2733393719807" y="346.0" />
+                  <point x="889.961986714976" y="346.0" />
+                  <point x="-90.0" y="80.5" />
+                </edge>
+                <edge source="Commands.GetCommand" target="Commands.Command">
+                  <point x="52.25" y="-25.5" />
+                  <point x="879.25" y="1024.0" />
+                  <point x="823.7177838164253" y="1024.0" />
+                  <point x="19.0" y="25.5" />
+                </edge>
+                <edge source="Logic.Controller" target="Logic.Observable">
+                  <point x="-55.55555555555554" y="-201.5" />
+                  <point x="462.1622282608696" y="366.0" />
+                  <point x="448.74556159420297" y="366.0" />
+                  <point x="448.74556159420297" y="135.0" />
+                  <point x="236.8505132850239" y="135.0" />
+                  <point x="94.79999999999995" y="36.5" />
+                </edge>
+                <edge source="Logic.Logger" target="Logic.Observer">
+                  <point x="-24.875" y="-47.5" />
+                  <point x="104.94000603864743" y="839.0" />
+                  <point x="107.125" y="839.0" />
+                  <point x="-24.875" y="25.5" />
+                </edge>
+                <edge source="GUI.Window" target="Commands.GetCommand">
+                  <point x="32.0" y="-80.5" />
+                  <point x="501.929438405797" y="1135.0" />
+                  <point x="827.0" y="1135.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="GUI.Main" target="GUI.Window">
+                  <point x="-63.375" y="-25.5" />
+                  <point x="910.2002717391304" y="1386.0" />
+                  <point x="405.929438405797" y="1386.0" />
+                  <point x="-64.0" y="80.5" />
+                </edge>
+                <edge source="GUI.Window" target="Commands.AddCommand">
+                  <point x="10.666666666666629" y="-80.5" />
+                  <point x="480.5961050724636" y="1125.0" />
+                  <point x="598.0" y="1125.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="GUI.Window" target="Domain.Train">
+                  <point x="96.0" y="-80.5" />
+                  <point x="565.929438405797" y="1165.0" />
+                  <point x="1400.0" y="1165.0" />
+                  <point x="1400.0" y="366.0" />
+                  <point x="1069.9619867149759" y="366.0" />
+                  <point x="90.0" y="80.5" />
+                </edge>
+                <edge source="Logic.Controller" target="Domain.Wagon">
+                  <point x="27.77777777777783" y="-201.5" />
+                  <point x="545.495561594203" y="336.0" />
+                  <point x="484.4122282608696" y="336.0" />
+                  <point x="484.4122282608696" y="135.0" />
+                  <point x="507.74556159420297" y="135.0" />
+                  <point x="-11.916666666666629" y="47.5" />
+                </edge>
+                <edge source="Commands.AddCommand" target="Commands.Command">
+                  <point x="-52.25" y="-25.5" />
+                  <point x="545.75" y="1004.0" />
+                  <point x="766.7177838164253" y="1004.0" />
+                  <point x="-38.0" y="25.5" />
+                </edge>
+                <edge source="GUI.Window" target="Commands.DeleteCommand">
+                  <point x="74.66666666666663" y="-80.5" />
+                  <point x="544.5961050724636" y="1155.0" />
+                  <point x="1285.0" y="1155.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="Domain.Train" target="Domain.Wagon">
+                  <point x="-60.0" y="-80.5" />
+                  <point x="919.961986714976" y="135.0" />
+                  <point x="531.5788949275362" y="135.0" />
+                  <point x="11.916666666666629" y="47.5" />
+                </edge>
+                <edge source="GUI.Window" target="Commands.NewCommand">
+                  <point x="-31.999999999999886" y="-80.5" />
+                  <point x="437.9294384057971" y="1135.0" />
+                  <point x="368.0" y="1135.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+                  <point x="55.33333333333334" y="14.5" />
+                  <point x="1676.1666666666665" y="84.86783854166666" />
+                  <point x="1497.8333333333333" y="84.86783854166666" />
+                  <point x="1497.8333333333333" y="20.701171875" />
+                  <point x="-83.0" y="-9.666666666666664" />
+                </edge>
+                <edge source="Logic.Logger" target="Logic.Observable">
+                  <point x="-74.625" y="-47.5" />
+                  <point x="55.190006038647425" y="839.0" />
+                  <point x="22.0" y="839.0" />
+                  <point x="22.0" y="125.0" />
+                  <point x="94.65051328502386" y="125.0" />
+                  <point x="-47.40000000000009" y="36.5" />
+                </edge>
+                <edge source="Logic.Logger" target="Logic.Controller">
+                  <point x="24.875" y="-47.5" />
+                  <point x="154.69000603864743" y="809.0" />
+                  <point x="408.34278381642514" y="809.0" />
+                  <point x="-109.375" y="201.5" />
+                </edge>
+                <edge source="GUI.Window" target="Logic.Controller">
+                  <point x="-53.33333333333326" y="-80.5" />
+                  <point x="416.59610507246373" y="1145.0" />
+                  <point x="253.00000000000006" y="1145.0" />
+                  <point x="253.00000000000006" y="839.0" />
+                  <point x="502.09278381642514" y="839.0" />
+                  <point x="-15.625" y="201.5" />
+                </edge>
+                <edge source="Logic.Observer" target="Logic.Observable">
+                  <point x="-49.75" y="-25.5" />
+                  <point x="82.25" y="135.0" />
+                  <point x="142.05051328502395" y="135.0" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="GUI.Main" target="Logic.Controller">
+                  <point x="21.125" y="-25.5" />
+                  <point x="994.7002717391304" y="1376.0" />
+                  <point x="1441.8333333333333" y="1376.0" />
+                  <point x="1441.8333333333333" y="819.0" />
+                  <point x="595.8427838164251" y="819.0" />
+                  <point x="78.125" y="201.5" />
+                </edge>
+                <edge source="GUI.Window" target="Logic.Observer">
+                  <point x="-95.99999999999989" y="-80.5" />
+                  <point x="373.9294384057971" y="1165.0" />
+                  <point x="11.0" y="1165.0" />
+                  <point x="11.0" y="366.0" />
+                  <point x="57.375" y="366.0" />
+                  <point x="-74.625" y="25.5" />
+                </edge>
+                <edge source="GUI.Window" target="Commands.RemoveCommand">
+                  <point x="53.33333333333337" y="-80.5" />
+                  <point x="523.2627717391304" y="1145.0" />
+                  <point x="1056.0" y="1145.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="Commands.Command" target="Logic.Controller">
+                  <point x="52.25" y="-25.5" />
+                  <point x="856.9677838164253" y="829.0" />
+                  <point x="564.5927838164251" y="829.0" />
+                  <point x="46.875" y="201.5" />
+                </edge>
+                <edge source="Commands.RemoveCommand" target="Commands.Command">
+                  <point x="52.25" y="-25.5" />
+                  <point x="1108.25" y="1004.0" />
+                  <point x="861.7177838164253" y="1004.0" />
+                  <point x="57.0" y="25.5" />
+                </edge>
+                <edge source="Commands.NewCommand" target="Commands.Command">
+                  <point x="-52.25" y="-25.5" />
+                  <point x="315.75" y="974.0" />
+                  <point x="709.7177838164253" y="974.0" />
+                  <point x="-95.0" y="25.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.3311188811188813" x="-639.6120681696808" y="413.8152059134103" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>addWagon</find>
       <find>implements Obs</find>
       <find>not</find>
+      <find>getWagonSe</find>
+      <find>Controller</find>
+      <find>JTF2</find>
+      <find>tfSeats</find>
+      <find>JTF</find>
+      <find>cli</find>
+      <find>tptexttrain</find>
+      <find>JTA1</find>
+      <find>execute</find>
+      <find>firstWord</find>
+      <find>Un</find>
+      <find>Combobox</find>
+      <find>link sele</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,18 +470,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Domain/Train.java" />
-        <option value="$PROJECT_DIR$/src/GUI/Window.java" />
-        <option value="$PROJECT_DIR$/src/GUI/Main.java" />
-        <option value="$PROJECT_DIR$/src/Commands/AddCommand.java" />
         <option value="$PROJECT_DIR$/src/Commands/DeleteCommand.java" />
-        <option value="$PROJECT_DIR$/src/Commands/GetCommand.java" />
         <option value="$PROJECT_DIR$/src/Commands/RemoveCommand.java" />
         <option value="$PROJECT_DIR$/src/Commands/NewCommand.java" />
         <option value="$PROJECT_DIR$/src/Commands/Command.java" />
-        <option value="$PROJECT_DIR$/src/Logic/Logger.java" />
+        <option value="$PROJECT_DIR$/src/Commands/AddCommand.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Train.java" />
+        <option value="$PROJECT_DIR$/src/Logic/Observable.java" />
+        <option value="$PROJECT_DIR$/src/Logic/Observer.java" />
+        <option value="$PROJECT_DIR$/src/Commands/GetCommand.java" />
+        <option value="$PROJECT_DIR$/../poorrail/poor-rail/src/paf/ass2/PoorRail.java" />
+        <option value="$PROJECT_DIR$/src/GUI/Test.java" />
+        <option value="$PROJECT_DIR$/src/GUI/Main.java" />
         <option value="$PROJECT_DIR$/src/Domain/Wagon.java" />
+        <option value="$PROJECT_DIR$/src/Logic/Logger.java" />
         <option value="$PROJECT_DIR$/src/Logic/Controller.java" />
+        <option value="$PROJECT_DIR$/src/GUI/Window.java" />
       </list>
     </option>
   </component>
@@ -159,16 +496,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2133" />
-    <option name="y" value="-12" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -191,22 +528,33 @@
               <item name="poor-rail" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rich rail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poor-rail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rich rail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poor-rail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value=".log&#9;PSI&#9;JAVA://Logic.Logger&#10;Unknown command&#9;PSI&#9;JAVA://com.sun.java.util.jar.pack.PackerImpl.DoPack#unknownAttrCommand" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544628453345" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544992551768" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,7 +599,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544608386229</updated>
       <workItem from="1544608399161" duration="84000" />
-      <workItem from="1544608539403" duration="14955000" />
+      <workItem from="1544608539403" duration="16665000" />
+      <workItem from="1544634064145" duration="547000" />
+      <workItem from="1544698375003" duration="9859000" />
+      <workItem from="1544792894907" duration="3744000" />
+      <workItem from="1544810282675" duration="13790000" />
+      <workItem from="1544955939999" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="method implementations of controller methods, and logger done">
       <created>1544617827466</created>
@@ -264,31 +617,39 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15039000" />
+    <option name="totallyTimeSpent" value="47337000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16111952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32917964" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.104669884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36240914" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.6666667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,38 +669,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="method implementations of controller methods, and logger done" />
-    <option name="LAST_COMMIT_MESSAGE" value="method implementations of controller methods, and logger done" />
+    <MESSAGE value="Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Logic/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Train.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rich rail.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -347,49 +680,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class dia.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Class dia.uml" />
     <entry file="uml://JAVA/Commands.NewCommand">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -401,39 +692,11 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="64.5" y="54.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="65.0" y="54.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Commands/NewCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Commands/GetCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="75" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Commands/DeleteCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Commands/RemoveCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -448,11 +711,130 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="63.5" y="54.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="64.0" y="54.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commands/RemoveCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Train.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="204" column="7" lean-forward="true" selection-start-line="204" selection-start-column="7" selection-end-line="204" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/Logic/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commands/GetCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../poorrail/poor-rail/src/paf/ass2/PoorRail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/com/sun/java/util/jar/pack/PackerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rich rail.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Richlog.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commands/AddCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commands/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Wagon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commands/NewCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commands/DeleteCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -462,44 +844,242 @@
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="" y="">com</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">Commands.NewCommand</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">Commands.AddCommand</node>
-            <node x="" y="">Logic.Observable</node>
-            <node x="" y="">groovyjarjarasm</node>
-            <node x="" y="">java</node>
-            <node x="" y="">Logic.Logger</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">Domain.Wagon</node>
-            <node x="" y="">GUI.Window</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">Logic.Observer</node>
-            <node x="" y="">org</node>
-            <node x="" y="">Logic.Controller</node>
-            <node x="" y="">Commands.GetCommand</node>
-            <node x="" y="">GUI.Main</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">groovy</node>
-            <node x="" y="">Commands.RemoveCommand</node>
-            <node x="" y="">Domain.Train</node>
-            <node x="" y="">Commands.DeleteCommand</node>
-            <node x="" y="">Commands.Command</node>
-            <node x="" y="">groovyjarjarcommonscli</node>
-            <node x="" y="">groovyjarjarantlr</node>
+            <node x="1433.0" y="1502.0">com</node>
+            <node x="263.5" y="1044.0">Commands.NewCommand</node>
+            <node x="493.5" y="1044.0">Commands.AddCommand</node>
+            <node x="253.0" y="1502.0">groovyjarjarasm</node>
+            <node x="1581.0" y="1502.0">java</node>
+            <node x="30.315006038647425" y="859.0">Logic.Logger</node>
+            <node x="1283.0" y="1502.0">javax</node>
+            <node x="1129.0" y="1502.0">javafx</node>
+            <node x="448.1622282608696" y="0.0">Domain.Wagon</node>
+            <node x="973.0" y="1502.0">oracle</node>
+            <node x="722.5" y="1044.0">Commands.GetCommand</node>
+            <node x="462.0" y="1502.0">META-INF</node>
+            <node x="812.0" y="1502.0">groovy</node>
+            <node x="951.5" y="1044.0">Commands.RemoveCommand</node>
+            <node x="0.0" y="1502.0">groovyjarjarcommonscli</node>
+            <node x="1180.5" y="1044.0">Commands.DeleteCommand</node>
+            <node x="700.2177838164253" y="881.0">Commands.Command</node>
+            <node x="1537.8333333333333" y="15.867838541666664">groovyjarjarantlr</node>
+            <node x="641.0" y="1502.0">netscape</node>
+            <node x="0.0" y="1576.0">sun</node>
+            <node x="23.550513285023953" y="11.0">Logic.Observable</node>
+            <node x="341.929438405797" y="1195.0">GUI.Window</node>
+            <node x="32.5" y="210.0">Logic.Observer</node>
+            <node x="143.0" y="1576.0">org</node>
+            <node x="392.71778381642514" y="386.0">Logic.Controller</node>
+            <node x="889.0752717391304" y="1406.0">GUI.Main</node>
+            <node x="285.0" y="1576.0">jdk</node>
+            <node x="859.961986714976" y="155.0">Domain.Train</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="388.0" y="276.5" />
+          <edges>
+            <edge source="Logic.Observable" target="Logic.Observer">
+              <point x="47.40000000000009" y="36.5" />
+              <point x="189.45051328502404" y="135.0" />
+              <point x="181.75" y="135.0" />
+              <point x="49.75" y="-25.5" />
+            </edge>
+            <edge source="Commands.DeleteCommand" target="Commands.Command">
+              <point x="-52.25" y="-25.5" />
+              <point x="1232.75" y="994.0" />
+              <point x="880.7177838164253" y="994.0" />
+              <point x="76.0" y="25.5" />
+            </edge>
+            <edge source="Logic.Controller" target="Logic.Observer">
+              <point x="-83.33333333333331" y="-201.5" />
+              <point x="434.3844504830918" y="356.0" />
+              <point x="206.625" y="356.0" />
+              <point x="74.625" y="25.5" />
+            </edge>
+            <edge source="GUI.Window" target="Logic.Observable">
+              <point x="-117.3333333333332" y="-80.5" />
+              <point x="352.5961050724638" y="1175.0" />
+              <point x="0.0" y="1175.0" />
+              <point x="0.0" y="115.0" />
+              <point x="47.250513285024" y="115.0" />
+              <point x="-94.79999999999995" y="36.5" />
+            </edge>
+            <edge source="GUI.Window" target="Domain.Wagon">
+              <point x="117.33333333333337" y="-80.5" />
+              <point x="587.2627717391304" y="1175.0" />
+              <point x="1425.75" y="1175.0" />
+              <point x="1425.75" y="115.0" />
+              <point x="579.245561594203" y="115.0" />
+              <point x="59.58333333333337" y="47.5" />
+            </edge>
+            <edge source="GUI.Window" target="Commands.Command">
+              <point x="-10.666666666666629" y="-80.5" />
+              <point x="459.26277173913036" y="1115.0" />
+              <point x="483.0" y="1115.0" />
+              <point x="483.0" y="994.0" />
+              <point x="747.7177838164253" y="994.0" />
+              <point x="-57.0" y="25.5" />
+            </edge>
+            <edge source="Logic.Controller" target="Domain.Train">
+              <point x="55.55555555555554" y="-201.5" />
+              <point x="573.2733393719807" y="346.0" />
+              <point x="889.961986714976" y="346.0" />
+              <point x="-90.0" y="80.5" />
+            </edge>
+            <edge source="Commands.GetCommand" target="Commands.Command">
+              <point x="52.25" y="-25.5" />
+              <point x="879.25" y="1024.0" />
+              <point x="823.7177838164253" y="1024.0" />
+              <point x="19.0" y="25.5" />
+            </edge>
+            <edge source="Logic.Controller" target="Logic.Observable">
+              <point x="-55.55555555555554" y="-201.5" />
+              <point x="462.1622282608696" y="366.0" />
+              <point x="448.74556159420297" y="366.0" />
+              <point x="448.74556159420297" y="135.0" />
+              <point x="236.8505132850239" y="135.0" />
+              <point x="94.79999999999995" y="36.5" />
+            </edge>
+            <edge source="Logic.Logger" target="Logic.Observer">
+              <point x="-24.875" y="-47.5" />
+              <point x="104.94000603864743" y="839.0" />
+              <point x="107.125" y="839.0" />
+              <point x="-24.875" y="25.5" />
+            </edge>
+            <edge source="GUI.Window" target="Commands.GetCommand">
+              <point x="32.0" y="-80.5" />
+              <point x="501.929438405797" y="1135.0" />
+              <point x="827.0" y="1135.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="GUI.Main" target="GUI.Window">
+              <point x="-63.375" y="-25.5" />
+              <point x="910.2002717391304" y="1386.0" />
+              <point x="405.929438405797" y="1386.0" />
+              <point x="-64.0" y="80.5" />
+            </edge>
+            <edge source="GUI.Window" target="Commands.AddCommand">
+              <point x="10.666666666666629" y="-80.5" />
+              <point x="480.5961050724636" y="1125.0" />
+              <point x="598.0" y="1125.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="GUI.Window" target="Domain.Train">
+              <point x="96.0" y="-80.5" />
+              <point x="565.929438405797" y="1165.0" />
+              <point x="1400.0" y="1165.0" />
+              <point x="1400.0" y="366.0" />
+              <point x="1069.9619867149759" y="366.0" />
+              <point x="90.0" y="80.5" />
+            </edge>
+            <edge source="Logic.Controller" target="Domain.Wagon">
+              <point x="27.77777777777783" y="-201.5" />
+              <point x="545.495561594203" y="336.0" />
+              <point x="484.4122282608696" y="336.0" />
+              <point x="484.4122282608696" y="135.0" />
+              <point x="507.74556159420297" y="135.0" />
+              <point x="-11.916666666666629" y="47.5" />
+            </edge>
+            <edge source="Commands.AddCommand" target="Commands.Command">
+              <point x="-52.25" y="-25.5" />
+              <point x="545.75" y="1004.0" />
+              <point x="766.7177838164253" y="1004.0" />
+              <point x="-38.0" y="25.5" />
+            </edge>
+            <edge source="GUI.Window" target="Commands.DeleteCommand">
+              <point x="74.66666666666663" y="-80.5" />
+              <point x="544.5961050724636" y="1155.0" />
+              <point x="1285.0" y="1155.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="Domain.Train" target="Domain.Wagon">
+              <point x="-60.0" y="-80.5" />
+              <point x="919.961986714976" y="135.0" />
+              <point x="531.5788949275362" y="135.0" />
+              <point x="11.916666666666629" y="47.5" />
+            </edge>
+            <edge source="GUI.Window" target="Commands.NewCommand">
+              <point x="-31.999999999999886" y="-80.5" />
+              <point x="437.9294384057971" y="1135.0" />
+              <point x="368.0" y="1135.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+              <point x="55.33333333333334" y="14.5" />
+              <point x="1676.1666666666665" y="84.86783854166666" />
+              <point x="1497.8333333333333" y="84.86783854166666" />
+              <point x="1497.8333333333333" y="20.701171875" />
+              <point x="-83.0" y="-9.666666666666664" />
+            </edge>
+            <edge source="Logic.Logger" target="Logic.Observable">
+              <point x="-74.625" y="-47.5" />
+              <point x="55.190006038647425" y="839.0" />
+              <point x="22.0" y="839.0" />
+              <point x="22.0" y="125.0" />
+              <point x="94.65051328502386" y="125.0" />
+              <point x="-47.40000000000009" y="36.5" />
+            </edge>
+            <edge source="Logic.Logger" target="Logic.Controller">
+              <point x="24.875" y="-47.5" />
+              <point x="154.69000603864743" y="809.0" />
+              <point x="408.34278381642514" y="809.0" />
+              <point x="-109.375" y="201.5" />
+            </edge>
+            <edge source="GUI.Window" target="Logic.Controller">
+              <point x="-53.33333333333326" y="-80.5" />
+              <point x="416.59610507246373" y="1145.0" />
+              <point x="253.00000000000006" y="1145.0" />
+              <point x="253.00000000000006" y="839.0" />
+              <point x="502.09278381642514" y="839.0" />
+              <point x="-15.625" y="201.5" />
+            </edge>
+            <edge source="Logic.Observer" target="Logic.Observable">
+              <point x="-49.75" y="-25.5" />
+              <point x="82.25" y="135.0" />
+              <point x="142.05051328502395" y="135.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="GUI.Main" target="Logic.Controller">
+              <point x="21.125" y="-25.5" />
+              <point x="994.7002717391304" y="1376.0" />
+              <point x="1441.8333333333333" y="1376.0" />
+              <point x="1441.8333333333333" y="819.0" />
+              <point x="595.8427838164251" y="819.0" />
+              <point x="78.125" y="201.5" />
+            </edge>
+            <edge source="GUI.Window" target="Logic.Observer">
+              <point x="-95.99999999999989" y="-80.5" />
+              <point x="373.9294384057971" y="1165.0" />
+              <point x="11.0" y="1165.0" />
+              <point x="11.0" y="366.0" />
+              <point x="57.375" y="366.0" />
+              <point x="-74.625" y="25.5" />
+            </edge>
+            <edge source="GUI.Window" target="Commands.RemoveCommand">
+              <point x="53.33333333333337" y="-80.5" />
+              <point x="523.2627717391304" y="1145.0" />
+              <point x="1056.0" y="1145.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="Commands.Command" target="Logic.Controller">
+              <point x="52.25" y="-25.5" />
+              <point x="856.9677838164253" y="829.0" />
+              <point x="564.5927838164251" y="829.0" />
+              <point x="46.875" y="201.5" />
+            </edge>
+            <edge source="Commands.RemoveCommand" target="Commands.Command">
+              <point x="52.25" y="-25.5" />
+              <point x="1108.25" y="1004.0" />
+              <point x="861.7177838164253" y="1004.0" />
+              <point x="57.0" y="25.5" />
+            </edge>
+            <edge source="Commands.NewCommand" target="Commands.Command">
+              <point x="-52.25" y="-25.5" />
+              <point x="315.75" y="974.0" />
+              <point x="709.7177838164253" y="974.0" />
+              <point x="-95.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.3311188811188813" x="-639.6120681696808" y="413.8152059134103" />
           <SelectedNodes />
           <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Inner Classes</Category>
-            <Category>Properties</Category>
             <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
@@ -507,55 +1087,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Commands/AddCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Commands/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="11">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#218#226#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Wagon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        <state relative-caret-position="11">
+          <caret line="247" column="25" selection-start-line="247" selection-start-column="25" selection-end-line="247" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2756#2757#0" expanded="true" />
-            <element signature="e#3935#3936#0" expanded="true" />
-            <element signature="e#3969#3970#0" expanded="true" />
-            <element signature="e#4017#4018#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="505" column="22" selection-start-line="505" selection-start-column="22" selection-end-line="505" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

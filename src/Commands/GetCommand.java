@@ -16,7 +16,7 @@ public class GetCommand extends Command {
 
             } else if (type.equals("wagon") && commands.length == 3) {
                 int idWagon = Integer.parseInt(commands[2]);
-                cont.getSeatsFromWagon(idWagon);
+                cont.getWagonSeats(idWagon);
             } else {
                 JOptionPane.showMessageDialog(null, "command not recognized");
                 System.out.println("command not recognized");
