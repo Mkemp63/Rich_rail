@@ -5,6 +5,7 @@ import Commands.*;
 import Domain.Train;
 import Domain.Wagon;
 import Logic.Controller;
+import Logic.Logger;
 import Logic.Observable;
 import Logic.Observer;
 
@@ -58,6 +59,7 @@ public class Window extends javax.swing.JFrame implements Observer, ActionListen
 
     private ArrayList<String> logs = new ArrayList<>();
     private Controller cont = Controller.getInstance();
+    private Logger lg = Logger.getInstance();
     private JTextField tfSeats;
 
 
