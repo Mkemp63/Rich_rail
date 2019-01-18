@@ -5,3 +5,11 @@ Wagon 2224 with 31 seats
 2222 has been remobed from wagons
 Wagon 12 with 20 seats
 12 has been remobed from wagons
+Train T1 added
+Wagon 2222 with 30 seats
+Wagon 2223 with 29 seats
+Wagon 2224 with 31 seats
+Train T1 added
+Wagon 2222 with 30 seats
+Wagon 2223 with 29 seats
+Wagon 2224 with 31 seats
